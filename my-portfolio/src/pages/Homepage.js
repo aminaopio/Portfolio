@@ -5,7 +5,7 @@ const HomePage = () => {
 
         const [state] = useState ({
             title: "Hi,",
-            titleTwo: "I'm Amina. (▰˘◡˘▰) ",
+            titleTwo: "I'm Amina. (^ _ ^)/ ",
             // titleThree: "Amina",
         });
         return (<div className='HomePage'>
