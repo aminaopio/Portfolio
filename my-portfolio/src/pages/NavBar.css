@@ -1,0 +1,36 @@
+nav {
+    border-bottom: 2px solid #F8E9A1;
+    text-align: center;
+    position: top;
+    font-size: 24px;
+    height: 80%;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 16px 32px;
+}
+
+nav a:hover {
+  background: black;
+  color: white;
+}
