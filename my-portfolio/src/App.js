@@ -1,14 +1,25 @@
 import './App.css';
+import React from 'react';
+import NavBar from './pages/NavBar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/Homepage';
+import ProjectPage from './pages/Projects';
+import ContactPage from './pages/Contact';
 
 function App() {
   return (
+    <BrowserRouter> 
     <div className="App">
-      <h1>Amina Opio</h1>
+      <NavBar/>
       <div id="page-body">
-
-        Welcome to my Portfolio!
+        <Routes>
+          <Route path ="/" element = {<HomePage />} />
+          <Route path ="/projects" element = {<ProjectPage />} />
+          <Route path ="/contact" element = {<ContactPage />} />
+        </Routes>
       </div>
     </div>
+    </BrowserRouter>
   );
 }
 
