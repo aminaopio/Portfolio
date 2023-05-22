@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
 import "./Homepage.css";
+
 const HomePage = () => {
 
         const [state] = useState ({
-            title: "Hi,",
-            titleTwo: "I'm Amina. (^ _ ^)/ ",
+            title: "Hi, I'm Amina!",
+            // titleTwo: "I'm Amina! ",
             // titleThree: "Amina",
+            image: "/images/amina.jpg",
         });
         return (<div className='HomePage'>
             <div className='HomePage-intro'>
@@ -33,8 +35,11 @@ const HomePage = () => {
                     <button className='button'>Contact Me!</button>
                 </div>
             </div>
-        </div>) 
-    
+            <div className='home-image'>
+                    <img className='amina-image'src={state.image} alt='amina'/>
+            </div>
+        </div>)
+
 }
 
 export default HomePage;

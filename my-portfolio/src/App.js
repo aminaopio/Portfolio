@@ -4,7 +4,7 @@ import NavBar from './pages/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/Homepage';
 import ProjectPage from './pages/Projects';
-import ContactPage from './pages/Contact';
+import ExperiencePage from './pages/Experience';
 import NotFoundPage from './pages/NotFound';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path ="/" element = {<HomePage />} />
           <Route path ="/projects" element = {<ProjectPage />} />
-          <Route path ="/contact" element = {<ContactPage />} />
+          <Route path ="/experience" element = {<ExperiencePage />} />
           <Route path ="*" element = {<NotFoundPage />} />
         </Routes>
       </div>
