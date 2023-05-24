@@ -24,6 +24,9 @@ function ExperiencePage() {
              Bachelor of Science Degree
           </h4>
           <p>Computer Science</p>
+<p>
+•	Learned time complexity of various algorithms; merge and heap sort; trees and graphs, etc. Worked on multiple sprints for design and implementation of software systems utilizing current design tools such as UML, system and user documentation. 
+</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -40,6 +43,9 @@ function ExperiencePage() {
           </h4>
 
           <p> International Studies</p>
+<p>
+•	Learned and practiced writing technical documents used in business and industry. Drafted and edited documents such as user manuals, software installation guides, legal disclaimers, thesis statements, etc.
+</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -54,6 +60,9 @@ function ExperiencePage() {
             Denton, TX
           </h4>
           <p>•	Tested various real time object detection algorithms for multiple edge computing devices.</p>
+          <p>•	Identified methods of improvement for existing techniques.</p>
+<p>•	Utilized MMdetection framework and Python Anaconda Environment.</p>
+
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -71,6 +80,8 @@ function ExperiencePage() {
           <p>
           Managed class material for 3 university level business and accounting courses.
           </p>
+          <p>•	Set foundation for online learning platforms.</p>
+          <p>•	Kept organized record of student submissions.  </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

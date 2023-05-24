@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect';
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import Link from '@mui/material/Link';
 import "../styles/Homepage.css";
 
 
@@ -38,14 +39,21 @@ const HomePage = () => {
                     }}/>
                 </div>
                 <div className='contact-me'>
-                    <GitHubIcon />
-                    <LinkedInIcon/>
-                    <EmailIcon />
+                <Link href="https://github.com/aminaopio" >
+                <GitHubIcon/>
+                </Link>
+                <Link href="https://www.linkedin.com/in/aminaopio/">
+                <LinkedInIcon/>
+                </Link>
+                <Link  a href="mailto:aminaopio@gmail.com">
+                <EmailIcon />
+                </Link>
+                    
                 </div>
             </div>
             <div></div>
             <div className='skills'>
-                <h1>Tech Stacks/Skills</h1>
+                <h1>Tech Stacks and Skills</h1>
                 <ol className='list'>
                 <li className='item'>
                     <h2>Front-End</h2>
