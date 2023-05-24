@@ -45,7 +45,7 @@ const HomePage = () => {
             </div>
             <div></div>
             <div className='skills'>
-                <h1>Skills</h1>
+                <h1>Tech Stacks/Skills</h1>
                 <ol className='list'>
                 <li className='item'>
                     <h2>Front-End</h2>
