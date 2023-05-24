@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Ubuntu Mono;
+  font-family: Ubuntu;
   font-weight: 700;
 }
 
@@ -12,3 +12,5 @@
   /* max-width: 800px; */
   margin: auto;
 }
+
+/* rm -rf node_modules && npm install */
