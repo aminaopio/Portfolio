@@ -58,7 +58,7 @@ function ExperiencePage() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2020 - present"
+          date="January 2019 - December 2021"
           iconStyle={{ background: "#b7796f", color: "#fff" }}
           icon={<WorkIcon />}
         >
