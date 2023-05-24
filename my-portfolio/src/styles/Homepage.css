@@ -72,7 +72,11 @@
 
 .skills h1 {
     color: #c3c1ab;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.skills h2 {
+    padding-top: 40px;
 }
 
 .skills .list {
