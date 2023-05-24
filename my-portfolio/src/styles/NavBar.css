@@ -1,14 +1,10 @@
 nav {
     border-bottom: 2px solid #000000;
-    text-align: left;
     position: top;
     font-size: 24px;
     height: 80%;
     width: 100%;
     top: 0;
-    display: flex;
-    align-items: left;
-    justify-content: right;
     background-color: #c3c1ab;
     padding-right: 100px;
 }
@@ -17,7 +13,6 @@ nav {
   text-align: left;
   align-items: left;
   justify-content: left;
-  padding-right: 700px;
   display: inline-block;
 }
 .comp-image {
@@ -26,6 +21,8 @@ nav {
   float: left;
   clear: left;
   flex-direction: column;
+  justify-content: left;
+  padding-left: 100px;
   /* justify-content: right;
   align-items: right; */
 }
@@ -33,8 +30,16 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  float: right;
+  display: flex;
+  align-items: left;
+  justify-content: right;
 }
 
+nav li .company{
+  display: inline-flex !important;
+  align-items: left;
+}
 nav li {
   display: inline-block;
   padding-top: 16px;

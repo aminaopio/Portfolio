@@ -8,18 +8,18 @@ const NavBar = () => {
     });
     return (
         <nav>
+            <li className='company'>
+                    <Link to = "/"><img className='comp-image'src={state.image} alt='compicon'/>aodev</Link> 
+                    </li>
             <ul>
-                <li className='company'>
-                <img className='comp-image'src={state.image} alt='compicon'/>
-                    aodev</li>
                 <li>
-                   <Link to = "/"> Home</Link> 
+                <Link to = "/"> Home</Link>
                 </li>
                 <li>
-                <Link to = "/experience"> Experience</Link>  
+                <Link to = "/experience"> Experience</Link>
                 </li>
                 <li>
-                <Link to = "/projects"> Projects</Link>  
+                <Link to = "/projects"> Projects</Link>
                 </li>
             </ul>
         </nav>
