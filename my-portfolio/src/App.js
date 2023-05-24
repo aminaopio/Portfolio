@@ -4,6 +4,7 @@ import NavBar from './pages/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/Homepage';
 import ProjectPage from './pages/Projects';
+import ProjectDisplay from './pages/ProjectsDisplay';
 import ExperiencePage from './pages/Experience';
 import NotFoundPage from './pages/NotFound';
 import Footer from './pages/footer';
@@ -18,6 +19,7 @@ function App() {
           <Route path ="/" element = {<HomePage />} />
           <Route path ="/experience" element = {<ExperiencePage />} />
           <Route path ="/projects" element = {<ProjectPage />} />
+          <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path ="*" element = {<NotFoundPage />} />
         </Routes>
       </div>
