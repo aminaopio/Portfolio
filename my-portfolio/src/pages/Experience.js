@@ -48,7 +48,7 @@ function ExperiencePage() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-          Vehicular Edge Computing & Security Research Intern — NSF
+          Vehicular Edge Computing & Security Research Intern — National Science Foundation
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             Denton, TX
@@ -63,7 +63,7 @@ function ExperiencePage() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-          Adjunct Professor Assistant — Tarrant County College
+          Adjunct Professor Assistant — Tarrant County Community College
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             Fort Worth, TX
