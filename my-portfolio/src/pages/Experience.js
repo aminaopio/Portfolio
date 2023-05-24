@@ -9,7 +9,7 @@ import WorkIcon from "@mui/icons-material/Work";
 
 function ExperiencePage() {
   return (
-    <div className="experience">
+    <div className="experience" backgroundColor="E7D8BC">
       <VerticalTimeline lineColor="#000000">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"

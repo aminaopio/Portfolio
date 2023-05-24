@@ -7,7 +7,7 @@ import "../styles/Project.css";
 function ProjectPage() {
   return (
     <div className="projects">
-      <h1> My Projects</h1>
+      <h2> My Projects</h2>
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return (
