@@ -13,6 +13,22 @@ nav {
     padding-right: 100px;
 }
 
+.company {
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+  padding-right: 700px;
+  display: inline-block;
+}
+.comp-image {
+  margin: 5px auto;
+  height: 3vh;
+  float: left;
+  clear: left;
+  flex-direction: column;
+  /* justify-content: right;
+  align-items: right; */
+}
 nav ul {
   list-style-type: none;
   margin: 0;

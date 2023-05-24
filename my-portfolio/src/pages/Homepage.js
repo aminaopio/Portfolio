@@ -51,7 +51,10 @@ const HomePage = () => {
                     
                 </div>
             </div>
-            <div></div>
+            {/* <div className='about-me'>
+                <h2>About Me</h2>
+            </div> */}
+
             <div className='skills'>
                 <h1>Tech Stacks and Skills</h1>
                 <ol className='list'>
