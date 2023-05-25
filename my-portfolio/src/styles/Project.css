@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #E7D8BC;
   }
 
   .projects h1 {
@@ -35,12 +35,13 @@
   }
   
   .projectList {
-    width: 70vw;
+    width: 100vw;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
-    padding-right: 100px;
+    /* padding-right: 100px; */
+    background-color: #ffffff;
   }
   
   /* MENU ITEM STYLING */
