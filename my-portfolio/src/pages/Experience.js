@@ -44,7 +44,7 @@ function ExperiencePage() {
 
           <p> International Studies</p>
 <p>
-•	Learned and practiced writing technical documents used in business and industry. Drafted and edited documents such as user manuals, software installation guides, legal disclaimers, thesis statements, etc.
+•	Drafted and edited documents such as user manuals, software installation guides, legal disclaimers, thesis statements, etc.
 </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
