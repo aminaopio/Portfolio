@@ -1,14 +1,34 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { Link, useLocation } from "react-router-dom";
 import "../styles/NavBar.css";
-import { Link } from 'react-router-dom';
-const NavBar = () => {
+import ReorderIcon from "@mui/icons-material/Reorder";
+
+function NavBar() {
+    const [expandNavbar, setExpandNavbar] = useState(false);
+
+    const location = useLocation();
+
+    useEffect(() => {
+    setExpandNavbar(false);
+    }, [location]);
+
 
     const [state] = useState ({
         image: "/images/luffyamazed.png",
     });
     return (
-        <nav>
-            <li className='company'>
+        <div className="navbar" id={expandNavbar ? "open" : "close"}>
+        <div className="toggleButton">
+          <button
+            onClick={() => {
+              setExpandNavbar((prev) => !prev);
+            }}
+          >
+            <ReorderIcon />
+          </button>
+        </div>
+        <div className='nav'>
+        <li className='company'>
                     <Link to = "/"><img className='comp-image'src={state.image} alt='compicon'/>aodev</Link> 
                     </li>
             <ul>
@@ -22,7 +42,8 @@ const NavBar = () => {
                 <Link to = "/projects"> Projects</Link>
                 </li>
             </ul>
-        </nav>
+            </div>
+      </div>
     );
 }
 

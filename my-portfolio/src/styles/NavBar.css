@@ -1,4 +1,4 @@
-nav {
+.nav {
     border-bottom: 2px solid #000000;
     position: top;
     font-size: 24px;
@@ -23,37 +23,98 @@ nav {
   flex-direction: column;
   justify-content: left;
   padding-left: 100px;
-  /* justify-content: right;
-  align-items: right; */
+  justify-content: right;
+  align-items: right;
 }
-nav ul {
+.nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   float: right;
   display: flex;
-  align-items: left;
+  align-items: right;
   justify-content: right;
 }
 
-nav li .company{
+.nav li .company{
   display: inline-flex !important;
   align-items: left;
 }
-nav li {
+.nav li {
   display: inline-block;
   padding-top: 16px;
   padding-bottom: 16px;
 }
-
-nav a {
-  text-decoration: none;
+.nav a {
   color: white;
-  font-weight: bold;
-  padding: 8px 16px;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 25px;
 }
 
-nav a:hover {
-  background: black;
+.toggleButton {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.toggleButton svg {
+  font-size: 50px;
+}
+.toggleButton button {
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
   color: white;
+  cursor: pointer;
+}
+
+#open {
+  height: 100vh;
+}
+
+#open .links {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 100px;
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar a {
+    width: 70px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .toggleButton {
+    display: flex;
+  }
+  #close a {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .toggleButton {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+
+  #open {
+    height: 100px;
+  }
+
+  #open .links {
+    flex-direction: row;
+  }
 }
