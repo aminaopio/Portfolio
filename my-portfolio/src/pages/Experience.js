@@ -1,11 +1,11 @@
+import SchoolIcon from "@mui/icons-material/School";
+import WorkIcon from "@mui/icons-material/Work";
 import React from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@mui/icons-material/School";
-import WorkIcon from "@mui/icons-material/Work";
 
 function ExperiencePage() {
   return (
@@ -13,7 +13,7 @@ function ExperiencePage() {
       <VerticalTimeline lineColor="#000000">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="May 2023"
+          date="July 2023"
           iconStyle={{ background: "#c3c1ab", color: "#fff" }}
           icon={<SchoolIcon />}
         >
@@ -30,7 +30,7 @@ function ExperiencePage() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="May 2023"
+          date="July 2023"
           iconStyle={{ background: "#c3c1ab", color: "#fff" }}
           icon={<SchoolIcon />}
         >
@@ -39,7 +39,7 @@ function ExperiencePage() {
           </h3>
 
           <h4 className="vertical-timeline-element-subtitle">
-            Associate of Arts Degree
+            Minor of Arts
           </h4>
 
           <p> International Studies</p>
